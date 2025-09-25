@@ -120,7 +120,7 @@ function mostrarPreguntasLista(preguntas) {
     div.classList.add("mb-4", "p-3", "fondo", "shadow-sm");
 
     div.innerHTML = `<strong>${pregunta.texto}</strong><br>
-    <img src="../images/${pregunta.multiple}/image${pregunta.id}.png" class="img-fluid rounded d-block mx-auto" alt="Imagen de la pregunta ${i}">
+    <img src="images/${pregunta.multiple}/image${pregunta.id}.png" class="img-fluid rounded d-block mx-auto" alt="Imagen de la pregunta ${i}">
 
     `;
 
@@ -161,6 +161,7 @@ function mostrarPreguntasLista(preguntas) {
     result.innerHTML = `<div class="alert alert-info">Respuestas correctas: <strong>${puntaje}</strong> de ${preguntas.length}</div>`;
   };
 }
+
 
 
 
